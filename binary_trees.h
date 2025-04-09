@@ -26,6 +26,7 @@ typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 
 size_t binary_tree_height(const binary_tree_t *tree);
+int binary_tree_balance(const binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_delete(binary_tree_t *tree);
