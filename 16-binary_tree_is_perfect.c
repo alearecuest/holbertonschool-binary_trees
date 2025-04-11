@@ -1,16 +1,11 @@
 #include "binary_trees.h"
+#include "_binary_tree_height.c"
 
 /**
  * binary_tree_is_perfect - Verifica si un árbol binario es perfecto
  * @tree: Puntero al nodo raíz del árbol a verificar
  *
- * Descripción:
- * Un árbol perfecto tiene todos los niveles completamente llenos,
- * y todos los nodos hoja están a la misma profundidad.
- *
- * Return:
- * 1 si el árbol es perfecto
- * 0 en cualquier otro caso (árbol NULL o no perfecto)
+ * Return: 1 si es perfecto, 0 en otro caso
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
