@@ -47,4 +47,5 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 size_t binary_tree_height(const binary_tree_t *tree);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 #endif /* _BINARY_TREES_H_ */
